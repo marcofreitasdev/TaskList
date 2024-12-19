@@ -12,14 +12,15 @@ Este documento fornece instruções para configurar, construir e rodar a aplica�
 
 Certifique-se de que os seguintes componentes estejam instalados:
 
-    1. [Docker Desktop](https://www.docker.com/products/docker-desktop) (ou Docker CLI)
-    2. [SDK do .NET 9](https://dotnet.microsoft.com/download/dotnet/9.0) (opcional, para executar comandos locais)
-    3. SQL Server Management Studio (SSMS) ou outro cliente SQL para verificar o estado do banco de dados (opcional).
-    4. Ferramenta `dotnet-ef` instalada globalmente:
+1. [Docker Desktop](https://www.docker.com/products/docker-desktop) (ou Docker CLI)
+2. [SDK do .NET 9](https://dotnet.microsoft.com/download/dotnet/9.0) (opcional, para executar comandos locais)
+3. SQL Server Management Studio (SSMS) ou outro cliente SQL para verificar o estado do banco de dados (opcional).
+4. Ferramenta `dotnet-ef` instalada globalmente:
+
     ```bash
     dotnet tool install --global dotnet-ef
     ```
-    Certifique-se de que o diretório de ferramentas globais do .NET está no seu PATH:
+Certifique-se de que o diretório de ferramentas globais do .NET está no seu PATH:
     ```bash
     export PATH="$PATH:$HOME/.dotnet/tools"
     ```
